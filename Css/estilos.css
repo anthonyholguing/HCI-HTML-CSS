@@ -1,0 +1,165 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+                                    /*Posiscion de las tres letras*/
+header nav ul{
+    list-style: none;
+    padding-right: 200px;
+    background-color: #A4B1B7;
+    height: 110px;
+    text-align: right;
+    font-family: verdana, Arial, Helvetica;
+    font-weight: bold;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+header ul li{
+    display: inline; 
+}
+
+header a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    text-emphasis: none;
+    padding-left: 15px;
+    text-align: right;
+    padding-right: 25px; 
+}
+
+
+#logo{
+    /*anchura del logo*/
+    width: 300px;
+    /*Altura del logo*/
+    height: 100;
+    /*es foltante a la derecha se puede agregar entre la imagen*/
+    float: left;
+    /*tiene un margen de izquierda a derecha de 200 pixeles*/
+    margin-left: 200px;
+    /*no afecta las otras cajas si se llega a modificar*/
+    box-sizing: border-box;
+}
+
+section h1{
+    /*Posicion de la imagen*/
+    position:relative;
+    /* Posicion de la letra en la imagen*/
+    top: 200px;
+    /*Espacio de la letra sobre la imagen*/
+    margin-left:400px;
+    /*Altura de la imagen*/
+    height: 5px;
+    /*No se salga de su margen*/
+    box-sizing: border-box;
+    /*Tipo de letra*/
+    font-family: 'Times New Roman';
+    /*Para ponerlo en negrita*/
+    font-weight: bold;
+    /*Tamaño de la letra*/
+    font-size: 33px;
+}
+
+
+
+#portada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 490px;
+}
+
+/*Centro de la pagina*/
+body section h2{
+    color: #026fff;
+    border: #1b2127;
+    width: 500px;
+    /*da espacio al margen de izquierda a derecha*/
+    margin-left: 390px;
+    /*Da espacio entre las letras*/
+    line-height: 50pt;
+}
+
+div h3{
+    line-height: 40pt;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    /*Separacion de las letras*/
+}
+
+.testbox1{
+    margin: 25px;
+    float:none;
+    border: #2E4053 2px solid;
+    margin-left: 350;
+    margin-right: 350;
+    padding: 5px;
+    /*sirva para dar el margen de arriba a bajo de la caja*/
+    margin-top: 2px;
+    max-width: 100%;
+}
+.testbox2{
+    margin: 25px;
+    float:none;
+    border: #2E4053 2px solid;
+    margin-left: 350;
+    margin-right: 350;
+    padding: 5px;
+    /*sirva para dar el margen de arriba a bajo de la caja*/
+    margin-top: 1px;
+    max-width: 100%;
+}
+
+div article p {
+    max-width: 100%;
+}
+
+div article img{
+
+    line-height: 30pt;
+    margin-top: 10pt;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.item{
+    justify-content: flex-start;
+    margin: auto;
+    width: 500px;
+    padding: 2em;
+    font-family: 'Times New Roman';   
+}
+
+button{
+    margin-top: 8px;
+    color:  #575FE5  ;
+    background: transparent;
+    border: 6px solid  #575FE5  ;
+    border-radius: 4px;
+    background-color:  #575FE5 ;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.4s ;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ .contactanos button{
+     border:2px solid black;
+     color: #1DE147;
+     background-color: black;
+ }
+
+.contactanos{
+    float: none;
+    padding: 1em;
+    background-color:#53AEDC;
+    margin:auto;
+    flex-direction: column;
+    line-height: 25pt;
+    font-size: 20px;   
+}
